@@ -1,0 +1,21 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/accessibility_navigation"
+    app:startDestination="@id/tasks_list_fragment">
+
+    <fragment
+        android:id="@+id/tasks_list_fragment"
+        android:name="com.example.retrofitTaskManager.ui.tasks.tasksList.TasksListFragment"
+        tools:layout="@layout/tasks_list_fragment">
+        <action
+            android:id="@+id/to_add_task_fragment_action"
+            app:destination="@id/add_task_fragment"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/add_task_fragment"
+        android:name="com.example.retrofitTaskManager.ui.tasks.addTask.AddTaskFragment"
+        tools:layout="@layout/add_task_fragment" />
+</navigation>

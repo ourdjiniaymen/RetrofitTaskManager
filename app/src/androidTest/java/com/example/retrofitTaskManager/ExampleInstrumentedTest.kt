@@ -1,4 +1,4 @@
-package com.example.retrofittaskmanager
+package com.example.retrofitTaskManager
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

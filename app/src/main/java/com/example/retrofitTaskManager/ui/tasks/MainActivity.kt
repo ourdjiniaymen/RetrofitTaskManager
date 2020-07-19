@@ -1,8 +1,8 @@
-package com.example.retrofittaskmanager.ui
+package com.example.retrofitTaskManager.ui.tasks
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.retrofittaskmanager.R
+import com.example.retrofitTaskManager.R
 
 class MainActivity : AppCompatActivity() {
 

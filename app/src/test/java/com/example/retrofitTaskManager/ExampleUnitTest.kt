@@ -1,4 +1,4 @@
-package com.example.retrofittaskmanager
+package com.example.retrofitTaskManager
 
 import org.junit.Test
 
